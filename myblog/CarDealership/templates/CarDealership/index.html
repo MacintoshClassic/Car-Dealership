@@ -1,0 +1,58 @@
+{% load static %}
+<html>
+
+<head>
+    <title>Home page</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/CarDealership.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container">
+        <header
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+
+            <div>
+                <p></p>
+                Welcome to our beautiful dealership!
+                . . .the website is in progress . . .
+                <p></p>
+            </div>
+
+            <div class="text-end">
+                <button type="button" class="btn btn-outline-primary me-2">Login</button>
+                <button type="button" class="btn btn-primary">Sign-up</button>
+            </div>
+        </header>
+    </div>
+
+    <!-- As a link -->
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+
+                <li><i class="bi bi-person-check-fill"></i><a href="check">Check your info</a>
+                </li>
+
+                <li><a class="navbar-brand" href="car/cheap/all" class="cheap">Cheap cars</a></li>
+                <li><a class="navbar-brand" href="car/sports/all" class="sports">Sports cars</a></li>
+                <li><a class="navbar-brand" href="car/trucks/all" class="trucks">Trucks</a></li>
+                <li><a class="navbar-brand" href="car/suvs/all" class="suvs">SUVs</a></li>
+                <li><a class="navbar-brand" href="car/military_vehicles/all" class="military_vehicles">Military
+                        vehicles</a></li>
+                <li><a class="navbar-brand" href="car/retro_cars/all" class="retro_cars">Retro cars</a></li>
+            </ul>
+        </div>
+    </nav>
+
+</body>
+
+</html>

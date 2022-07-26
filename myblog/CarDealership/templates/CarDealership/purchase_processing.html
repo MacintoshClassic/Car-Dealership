@@ -1,0 +1,14 @@
+<body>
+    <title>Purchasing...</title>
+    <p>Car purchasing is in process . . .</p>
+    <form action="/buy/" method="get">
+        <label for="num">Please input your id number:</label><br>
+        <input type="number" id="num" name="client_id"><br>
+
+        <label for="num">Please input car id number:</label><br>
+        <input type="number" name="car_id" value="{{car_id}}">
+
+        <br><input type="submit" class="btn btn-primary" value="Buy this car"><br>
+        <br><a class="btn btn-primary" href="http://127.0.0.1:8000/">Home</a><br>
+    </form>
+</body>

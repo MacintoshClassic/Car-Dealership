@@ -1,0 +1,12 @@
+<body>
+    <div>
+        {% for car in retro_cars_list %}
+        {{ car.brand }} <br />
+        {{ car.model }} <br />
+        {{ car.year }} <br />
+        {{ car.price }} <br />
+        <a class="btn btn-primary" href="/car/buy/{{car.id}}">Buy</a>
+        <hr />
+        {% endfor %}
+    </div>
+</body>
