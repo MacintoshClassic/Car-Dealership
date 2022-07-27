@@ -14,9 +14,9 @@
     <li>Python</li>
     <li>HTML</li>
     <li>CSS</li>
-    <li>Git</li>
-    <li>Django</li>
     <li>Bootstrap</li>
+    <li>Django</li>
+    <li>Git</li>
    </ul>
   <p><b>P.S.</b> Code First Approach has been used in this project. I mostly worked on the backend, this is why the user’s interface looks pretty simple.</p>
 </header>
